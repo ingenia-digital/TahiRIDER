@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAHI RIDER | Ciclismo & Performance</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header>
+        <div class="logo-container">
+            <img src="https://uploads.onecompiler.io/43vjzagjf/44ww7mvm8/remo%20tahi.png" alt="Logo Tahi Rider">
+        </div>
+        
+        <div class="workshop-badge">⚡ Taller Personalizado ⚡</div>
+
+        <h1 class="brand-title">Tahi Rider</h1>
+        <p class="slogan">Equipamiento, Accesorios y Alto Rendimiento</p>
+        
+        <div class="hero-buttons">
+            <!-- Tecla modificada para ir al inventario de accesorios -->
+            <a href="inventario.html" class="neon-btn">
+                <i class="fa-solid fa-moped"></i> Ver Accesorios
+            </a>
+            <!-- Tecla modificada para ir al inventario de repuestos -->
+            <a href="inventario.html" class="neon-btn">
+                <i class="fa-solid fa-gears"></i> Ver Repuestos
+            </a>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main id="catalogo">
+        <div class="shop-layout">
+            
+            <!-- LISTADO DE PRODUCTOS -->
+            <div class="products-catalog">
+                
+                <!-- CATEGORÍA 1: ACCESORIOS DESTACADOS -->
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <i class="fa-solid fa-shield-halved"></i> Accesorios Destacados
+                    </h2>
+                    <div class="product-grid">
+                        <!-- Producto 1 -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/44ww7mvm8/Captura%20de%20pantalla%202026-08-02%20155903.png" alt="Traba Disco">
+                            </div>
+                            <div class="product-info">
+                                <h3>Traba Disco</h3>
+                                <p class="price">$22,446</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Traba Disco', 22446)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Producto 2 -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/44ww7mvm8/Captura%20de%20pantalla%202026-08-02%20142327.png" alt="Cadena">
+                            </div>
+                            <div class="product-info">
+                                <h3>Cadena con Candado Anticorte</h3>
+                                <p class="price">$14,028</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Cadena con Candado Anticorte', 14028)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Producto 3 -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/44ww7mvm8/Captura%20de%20pantalla%202026-08-02%20133739.png" alt="Banda">
+                            </div>
+                            <div class="product-info">
+                                <h3>Banda Antipinchazo Tire Liner</h3>
+                                <p class="price">$9,872</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Banda Antipinchazo Tire Liner', 9872)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Producto 4 -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/44ww7mvm8/Captura%20de%20pantalla%202026-08-02%20161424.png" alt="Asiento">
+                            </div>
+                            <div class="product-info">
+                                <h3>Asiento MTB Profesional</h3>
+                                <p class="price">$19,484</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Asiento MTB Profesional', 19484)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- CATEGORÍA 2: REPUESTOS / REPARACIÓN -->
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <i class="fa-solid fa-wrench"></i> Repuestos & Reparación
+                    </h2>
+                    <div class="product-grid">
+                        <!-- Producto 1 -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/44ww7mvm8/Captura%20de%20pantalla%202026-08-02%20142002.png" alt="Freno">
+                            </div>
+                            <div class="product-info">
+                                <h3>Freno a Disco Hidráulico</h3>
+                                <p class="price">$81,831</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Freno a Disco Hidráulico', 81831)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Producto 2 -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/44ww7mvm8/Captura%20de%20pantalla%202026-08-02%20162349.png" alt="Manijas">
+                            </div>
+                            <div class="product-info">
+                                <h3>Manijas Integradas Shimano</h3>
+                                <p class="price">$33,500</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Manijas Integradas Shimano', 33500)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Producto 3 -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/44ww7mvm8/Captura%20de%20pantalla%202026-08-02%20162745.png" alt="Piñón">
+                            </div>
+                            <div class="product-info">
+                                <h3>Piñón 7V Shimano</h3>
+                                <p class="price">$29,097</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Piñón 7V Shimano', 29097)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Producto 4 -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/44ww7mvm8/Captura%20de%20pantalla%202026-08-02%20162912.png" alt="Cambio">
+                            </div>
+                            <div class="product-info">
+                                <h3>Cambio Trasero Shimano TY300</h3>
+                                <p class="price">$14,289</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Cambio Trasero Shimano TY300', 14289)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- CARRITO DE COMPRAS LATERAL -->
+            <div>
+                <div class="cart-container">
+                    <h2><i class="fa-solid fa-cart-shopping"></i> Tu Carrito</h2>
+                    <ul id="cart-items">
+                        <li style="color: var(--text-muted); text-align: center; padding: 1.5rem 0; font-size: 0.9rem;">El carrito está vacío</li>
+                    </ul>
+                    <div class="cart-total">
+                        <span>Total:</span>
+                        <span id="cart-total-price" style="color: var(--neon-white);">$0</span>
+                    </div>
+                    <button class="whatsapp-checkout-btn" onclick="enviarPedidoWhatsApp()">
+                        <i class="fa-brands fa-whatsapp" style="font-size: 1.2rem;"></i> Enviar Pedido por WhatsApp
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- FOOTER FIJO CON FORMAS DE PAGO -->
+    <footer class="payment-footer">
+        <div class="payment-content">
+            <span class="payment-title">⚡ Medios de Pago Aceptados ⚡</span>
+            <div class="payment-icons">
+                <div class="payment-badge"><i class="fa-solid fa-bolt"></i> Mercado Pago</div>
+                <div class="payment-badge"><i class="fa-solid fa-money-bill-wave"></i> Efectivo</div>
+                <div class="payment-badge"><i class="fa-solid fa-credit-card"></i> Tarjetas</div>
+                <div class="payment-badge"><i class="fa-solid fa-building-columns"></i> Transferencia</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
