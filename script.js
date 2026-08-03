@@ -49,7 +49,7 @@ function enviarPedidoWhatsApp() {
     }
 
     // Reemplaza este número por tu número de WhatsApp real con código de país y área
-    const numeroWhatsApp = "5493476000000"; 
+    const numeroWhatsApp = "541135911475"; 
 
     let mensaje = "Hola! Tahi Rider ⚡, quiero realizar el siguiente pedido:\n\n";
     let total = 0;
