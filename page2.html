@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repuestos y Taller | TAHI RIDER</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Enlace al mismo archivo CSS -->
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+    <!-- HEADER ESPECÍFICO PARA REPUESTOS -->
+    <header class="accessories-header">
+        <a href="index.html" class="back-home-btn"><i class="fa-solid fa-arrow-left"></i> Volver al Inicio</a>
+        
+        <div class="workshop-badge">⚡ Taller & Repuestos ⚡</div>
+
+        <!-- TÍTULO EN GRANDE AZUL NEÓN BRILLANTE -->
+        <h1 class="neon-main-title">Repuestos</h1>
+        <p class="slogan">Componentes, Transmisión y Herramientas </p>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL: CATÁLOGO DE REPUESTOS + CARRITO -->
+    <main>
+        <div class="shop-layout">
+            
+            <!-- LISTADO DE REPUESTOS -->
+            <div class="products-catalog">
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <i class="fa-solid fa-gears"></i> Catálogo de Repuestos & Taller
+                    </h2>
+                    
+                    <div class="product-grid">
+                        
+                        <!-- Extensor de Stem -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785754784600/Captura%20de%20pantalla%202026-08-03%20075543.png" alt="Extensor de Stem">
+                            </div>
+                            <div class="product-info">
+                                <h3>Extensor de Stem Azul-Rojo-Negro</h3>
+                                <p class="price">$12,990</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Extensor de Stem', 12990)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Horquilla R29 -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785754794028/Captura%20de%20pantalla%202026-08-03%20075631.png" alt="Horquilla R29">
+                            </div>
+                            <div class="product-info">
+                                <h3>Horquilla R29</h3>
+                                <p class="price">$54,817</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Horquilla R29', 54817)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Stem Corto -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785754804602/Captura%20de%20pantalla%202026-08-03%20075647.png" alt="Stem Corto">
+                            </div>
+                            <div class="product-info">
+                                <h3>Stem Corto / Semi-Corto</h3>
+                                <p class="price">$8,834</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Stem Corto', 8834)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Stem Super Corto Color -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785754985123/Captura%20de%20pantalla%202026-08-03%20075718.png" alt="Stem Super Corto">
+                            </div>
+                            <div class="product-info">
+                                <h3>Stem Super Corto (Azul / Rojo / Dorado)</h3>
+                                <p class="price">$15,328</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Stem Super Corto Color', 15328)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                          <!-- Stem Super Corto Color -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785755125567/Captura%20de%20pantalla%202026-08-03%20075736.png" alt="Stem Super Corto">
+                            </div>
+                            <div class="product-info">
+                                <h3>Stem Super Corto </h3>
+                                <p class="price">$15,328</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Stem Super Corto Color', 15328)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+                   
+                        <!-- Stem Super Corto Tornasolado -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785755028990/Captura%20de%20pantalla%202026-08-03%20075728.png" alt="Stem Tornasolado">
+                            </div>
+                            <div class="product-info">
+                                <h3>Stem Super Corto Tornasolado</h3>
+                                <p class="price">$55,595</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Stem Super Corto Tornasolado', 55595)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Cable de Freno -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785755239105/Captura%20de%20pantalla%202026-08-03%20075744.png" alt="Cable de Freno">
+                            </div>
+                            <div class="product-info">
+                                <h3>Cable de Freno</h3>
+                                <p class="price">$1000</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Cable de Freno', 846)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Disco de Freno Tornasolado -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785755491780/Captura%20de%20pantalla%202026-08-03%20075759.png" alt="Disco de Freno">
+                            </div>
+                            <div class="product-info">
+                                <h3>Disco de Freno Tornasolado</h3>
+                                <p class="price">$10,912</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Disco de Freno Tornasolado', 10912)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Freno a Disco Hidráulico -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785755623058/Captura%20de%20pantalla%202026-08-03%20075751.png" alt="Freno Hidráulico">
+                            </div>
+                            <div class="product-info">
+                                <h3>Freno a Disco Hidráulico</h3>
+                                <p class="price">$81,831</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Freno a Disco Hidráulico', 81831)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Freno a Disco Mecánico -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785755663713/Captura%20de%20pantalla%202026-08-03%20075816.png" alt="Freno Mecánico">
+                            </div>
+                            <div class="product-info">
+                                <h3>Freno a Disco Mecánico</h3>
+                                <p class="price">$18,707</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Freno a Disco Mecánico', 18707)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Gomas de Freno -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785755710078/Captura%20de%20pantalla%202026-08-03%20075835.png" alt="Gomas de Freno">
+                            </div>
+                            <div class="product-info">
+                                <h3>Gomas de Freno (Juego)</h3>
+                                <p class="price">$1,689</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Gomas de Freno', 1689)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Gomas de Freno en Blister -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785755842969/Captura%20de%20pantalla%202026-08-03%20081709.png" alt="Gomas Blister">
+                            </div>
+                            <div class="product-info">
+                                <h3>Gomas de Freno en Blister</h3>
+                                <p class="price">$4,416</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Gomas de Freno en Blister', 4416)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                      <!-- Gomas de Freno carrera -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785755969157/Captura%20de%20pantalla%202026-08-03%20081918.png" alt="Gomas Blister">
+                            </div>
+                            <div class="product-info">
+                                <h3>Gomas de Freno carrera</h3>
+                                <p class="price">$14,400</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Gomas de Freno carrera', 4416)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+                      
+                        
+                        <!-- Mangos de Freno de Carrera -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785756650413/Captura%20de%20pantalla%202026-08-03%20083022.png" alt="Mangos de Freno">
+                            </div>
+                            <div class="product-info">
+                                <h3>Mangos de Freno de Carrera </h3>
+                                <p class="price">$12,990</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Mangos de Freno de Carrera', 12990)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                      <!-- Mangos de Freno aluminio -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785756490676/Captura%20de%20pantalla%202026-08-03%20082016.png" alt="Mangos de Freno">
+                            </div>
+                            <div class="product-info">
+                                <h3>Mangos de Freno de Carrera </h3>
+                                <p class="price">$10,500</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Mangos de Freno de Carrera', 12990)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                         <!-- pastillas de freno -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785757138929/Captura%20de%20pantalla%202026-08-03%20083825.png" alt="Fusible">
+                            </div>
+                            <div class="product-info">
+                                <h3>Pastillas de freno </h3>
+                                <p class="price">$5,456</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Pastillas de freno', 5456)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div> 
+
+
+                        <!-- Fusible  -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785757390172/Captura%20de%20pantalla%202026-08-03%20084002.png" alt="Fusible">
+                            </div>
+                            <div class="product-info">
+                                <h3>Fusible </h3>
+                                <p class="price">$5,456</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Fusible o Extensor', 5456)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                          <!-- Extensor de fusible  -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785757664941/Captura%20de%20pantalla%202026-08-03%20084615.png" alt="Fusible">
+                            </div>
+                            <div class="product-info">
+                                <h3>Fusible / Extensor de Fusible</h3>
+                                <p class="price">$5,456</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Fusible o Extensor', 5456)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                          <!-- Ajusta rayos  -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785758499430/Captura%20de%20pantalla%202026-08-03%20090009.png" alt="Fusible">
+                            </div>
+                            <div class="product-info">
+                                <h3>Ajusta rayos</h3>
+                                <p class="price">$5,200</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Ajusta rayos', 5456)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Bolso de reparacion  -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785758620327/Captura%20de%20pantalla%202026-08-03%20090208.png" alt="Bomba con Cargador">
+                            </div>
+                            <div class="product-info">
+                                <h3>Bolso de reparacion </h3>
+                                <p class="price">$10,000</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Bolso de reparacion', 32214)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                       <!-- Bomba de Aire con Cargador -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785758682955/Captura%20de%20pantalla%202026-08-03%20090410.png" alt="Bomba con Cargador">
+                            </div>
+                            <div class="product-info">
+                                <h3>Bomba de Aire con Cargador</h3>
+                                <p class="price">$32,214</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Bomba de Aire con Cargador', 32214)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Caja de Herramientas -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785758734193/Captura%20de%20pantalla%202026-08-03%20090513.png" alt="Caja de Herramientas">
+                            </div>
+                            <div class="product-info">
+                                <h3>Caja de Herramientas Completa</h3>
+                                <p class="price">$110,500</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Caja de Herramientas', 110500)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Combo de parche -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785759581180/Captura%20de%20pantalla%202026-08-03%20091846.png" alt="Combo de parche">
+                            </div>
+                            <div class="product-info">
+                                <h3>Combo de parches </h3>
+                                <p class="price">$4,500</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Combo de parche ', 55851)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                         <!-- Corta cadena -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785759982215/Captura%20de%20pantalla%202026-08-03%20092348.png" alt="Corta cadena">
+                            </div>
+                            <div class="product-info">
+                                <h3>Corta cadena</h3>
+                                <p class="price">$8,000</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('corta cadena', 55851)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Inflador varios  -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785760546650/Captura%20de%20pantalla%202026-08-03%20093358.png" alt="Inflador Eléctrico">
+                            </div>
+                            <div class="product-info">
+                                <h3>Inflador varios colores</h3>
+                                <p class="price">$7,000</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Inflador varios colores', 55851)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                       <!-- Inflador de Pie  -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785760894504/Captura%20de%20pantalla%202026-08-03%20094014.png" alt="Inflador de pie">
+                            </div>
+                            <div class="product-info">
+                                <h3>Inflador de pie </h3>
+                                <p class="price">$18,000</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Inflador de pie', 55851)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                       <!-- Inflador Eléctrico -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785763292355/Captura%20de%20pantalla%202026-08-03%20093433.png" alt="Inflador Eléctrico">
+                            </div>
+                            <div class="product-info">
+                                <h3>Inflador Eléctrico Portátil</h3>
+                                <p class="price">$55,851</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Inflador Eléctrico Portátil', 55851)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                      <!-- Inflador pvp -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785763379995/Captura%20de%20pantalla%202026-08-03%20093442.png" alt="Inflador pvp">
+                            </div>
+                            <div class="product-info">
+                                <h3>Inflador pvp</h3>
+                                <p class="price">$6,800</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Inflador pvp', 55851)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                         <!-- Limpia cadena -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785763530205/Captura%20de%20pantalla%202026-08-03%20102409.png" alt="Limpia cadena">
+                            </div>
+                            <div class="product-info">
+                                <h3>Limpia cadena </h3>
+                                <p class="price">$7,000</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Limpia cadena', 15068)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>  
+
+                          <!-- Lubricante para cadena -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785763662787/Captura%20de%20pantalla%202026-08-03%20102625.png" alt="Lubricante para cadena">
+                            </div>
+                            <div class="product-info">
+                                <h3>Lubricante para cadena </h3>
+                                <p class="price">$3,000</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Lubricante para cadena', 15068)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>  
+
+                         
+                          <!-- Multiherramienta de bolsillo -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785763870571/Captura%20de%20pantalla%202026-08-03%20102900.png" alt="Multiherramienta de bolsillo">
+                            </div>
+                            <div class="product-info">
+                                <h3>Multiherramienta de bolsillo </h3>
+                                <p class="price">$5,000</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Multiherramienta de bolsillo', 15068)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>  
+
+                          <!-- Parche y solucion -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785764427707/Captura%20de%20pantalla%202026-08-03%20103718.png" alt="Parche y solucion ">
+                            </div>
+                            <div class="product-info">
+                                <h3>Parche y solucion  </h3>
+                                <p class="price">$3,000</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Multiherramienta de bolsillo', 15068)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>  
+
+                        <!-- Parche y solucion blister  -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785764435594/Captura%20de%20pantalla%202026-08-03%20103726.png" alt="Parche y solucion blister">
+                            </div>
+                            <div class="product-info">
+                                <h3>Parche y solucion blister </h3>
+                                <p class="price">$2,500</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Parche y solucion blister', 15068)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>  
+
+
+                        <!-- Maza Delantera / Trasera Ruleman -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785764748635/Captura%20de%20pantalla%202026-08-03%20104530.png" alt="Mazas Ruleman">
+                            </div>
+                            <div class="product-info">
+                                <h3>Maza Delantera/Trasera Ruleman 36AG</h3>
+                                <p class="price">$15,068</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Maza Ruleman 36AG', 15068)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Juego de Maza Ruleman -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785764873104/Captura%20de%20pantalla%202026-08-03%20104736.png" alt="Juego de Maza">
+                            </div>
+                            <div class="product-info">
+                                <h3>Juego de Maza 36 Ruleman</h3>
+                                <p class="price">$64,951</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Juego de Maza 36 Ruleman', 64951)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Maza Trasera 32 Agujeros Bolilla - Base: $12,390 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785765169057/Captura%20de%20pantalla%202026-08-03%20105129.png" alt="Maza Trasera 32 Agujeros Bolilla">
+                            </div>
+                            <div class="product-info">
+                                <h3>Maza Trasera 32 Ag. Bolilla</h3>
+                                <p class="price">$16,107</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Maza Trasera 32 Ag. Bolilla', 16107)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Maza Trasera 32 o 36 Agujeros Ruleman - Base: $18,985 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785765226071/Captura%20de%20pantalla%202026-08-03%20105329.png" alt="Maza Trasera 32 o 36 Agujeros Ruleman">
+                            </div>
+                            <div class="product-info">
+                                <h3>Maza Trasera 32/36 Ag. Ruleman</h3>
+                                <p class="price">$24,681</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Maza Trasera 32/36 Ag. Ruleman', 24681)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Maza Trasera 36 o 32 Agujeros Ruleman - Base: $14,788 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785765296086/Captura%20de%20pantalla%202026-08-03%20105421.png" alt="Maza Trasera 36 o 32 Agujeros Ruleman">
+                            </div>
+                            <div class="product-info">
+                                <h3>Maza Trasera 36/32 Ag. Ruleman</h3>
+                                <p class="price">$19,224</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Maza Trasera 36/32 Ag. Ruleman', 19224)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Caja Pedalera Sellada -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785765441631/Captura%20de%20pantalla%202026-08-03%20105706.png" alt="Caja Pedalera">
+                            </div>
+                            <div class="product-info">
+                                <h3>Caja Pedalera Sellada (neco/kenli) </h3>
+                                <p class="price">$11,700</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Caja Pedalera Sellada', 11690)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Caja Pedalera Sellada -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785765385694/Captura%20de%20pantalla%202026-08-03%20105611.png" alt="Caja Pedalera">
+                            </div>
+                            <div class="product-info">
+                                <h3>Caja Pedalera Sellada </h3>
+                                <p class="price">8,000</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Caja Pedalera Sellada', 11690)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Pedales de Aluminio -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785765826602/Captura%20de%20pantalla%202026-08-03%20110314.png" alt="Pedales Aluminio">
+                            </div>
+                            <div class="product-info">
+                                <h3>Pedales de Aluminio Pro (Negro/Azul/Rojo/Tornasolado)</h3>
+                                <p class="price">$37,670</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Pedales de Aluminio Pro', 37670)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                      <!-- Pedales de Aluminio -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785765826602/Captura%20de%20pantalla%202026-08-03%20110314.png" alt="Pedale Aluminio">
+                            </div>
+                            <div class="product-info">
+                                <h3>Pedal de Aluminio Negro</h3>
+                                <p class="price">$17,000</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Pedal de Aluminio ', 37670)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Calas / Trabas Pedales Ruta -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785766217529/Captura%20de%20pantalla%202026-08-03%20110907.png" alt="Calas Pedales">
+                            </div>
+                            <div class="product-info">
+                                <h3>Calas / Trabas Pedales Ruta</h3>
+                                <p class="price">$5,600</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Calas Trabas Pedales Ruta', 5456)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Cadena 114L -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785766351616/Captura%20de%20pantalla%202026-08-03%20111211.png" alt="Cadena 114L">
+                            </div>
+                            <div class="product-info">
+                                <h3>Cadena 114L en caja/blister</h3>
+                                <p class="price">$5,248</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Cadena 114L', 5248)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                       <!-- Cadena 116L -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785766931859/Captura%20de%20pantalla%202026-08-03%20112154.png" alt="Cadena 116L">
+                            </div>
+                            <div class="product-info">
+                                <h3>Cadena 116L en Blister / Caja</h3>
+                                <p class="price">$6,200</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Cadena 116L', 5248)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+                        
+                       <!-- Descarrilador Shimano - Base: $4,557 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785767349234/Captura%20de%20pantalla%202026-08-03%20112647.png" alt="Descarrilador Shimano">
+                            </div>
+                            <div class="product-info">
+                                <h3>Descarrilador Shimano</h3>
+                                <p class="price">$5,900</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Descarrilador Shimano', 5924)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Funda de Cable de Transmisión 20Mts - Base: $10,992 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785767470838/Captura%20de%20pantalla%202026-08-03%20112655.png" alt="Funda Cable Transmisión">
+                            </div>
+                            <div class="product-info">
+                                <h3>Funda Cable Transmisión 20Mts</h3>
+                                <p class="price">$14,290</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Funda Cable Transmisión 20Mts', 14290)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Manijas de Cambio / Integradas Shimano - Base: $7,115 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785767535191/Captura%20de%20pantalla%202026-08-03%20112703.png" alt="Manijas de Cambio">
+                            </div>
+                            <div class="product-info">
+                                <h3>Manijas de Cambio / Integradas</h3>
+                                <p class="price">$9,250</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Manijas de Cambio / Integradas', 9250)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Manijas Integradas Shimano (2da opción) - Base: $14,390 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785767567609/Captura%20de%20pantalla%202026-08-03%20112711.png" alt="Manijas Integradas Shimano">
+                            </div>
+                            <div class="product-info">
+                                <h3>Manijas Integradas Shimano Pro</h3>
+                                <p class="price">$18,707</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Manijas Integradas Shimano Pro', 18707)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Pata de Cambio Acera - Base: $13,869 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785767634470/Captura%20de%20pantalla%202026-08-03%20112720.png" alt="Pata de Cambio Acera">
+                            </div>
+                            <div class="product-info">
+                                <h3>Pata de Cambio Acera</h3>
+                                <p class="price">$18,000</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Pata de Cambio Acera', 18030)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Cambio Shimano TY300 - Base: $10,992 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785767721421/Captura%20de%20pantalla%202026-08-03%20112741.png" alt="Cambio Shimano TY300">
+                            </div>
+                            <div class="product-info">
+                                <h3>Cambio Shimano TY300</h3>
+                                <p class="price">$14,300</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Cambio Shimano TY300', 14290)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Piñón 1 Velocidad - Base: $8,394 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785767765959/Captura%20de%20pantalla%202026-08-03%20112809.png" alt="Piñón 1 Velocidad">
+                            </div>
+                            <div class="product-info">
+                                <h3>Piñón 1 Velocidad</h3>
+                                <p class="price">$10,912</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Piñón 1 Velocidad', 10912)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Pata de Cambio TZ Shimano - Base: $8,394 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785767832612/Captura%20de%20pantalla%202026-08-03%20112731.png" alt="Pata de Cambio TZ Shimano">
+                            </div>
+                            <div class="product-info">
+                                <h3>Pata de Cambio TZ Shimano</h3>
+                                <p class="price">$10,912</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Pata de Cambio TZ Shimano', 10912)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                       
+
+                        <!-- Piñón 7V Genérico - Base: $5,795 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785768044091/Captura%20de%20pantalla%202026-08-03%20112819.png" alt="Piñón 7V Genérico">
+                            </div>
+                            <div class="product-info">
+                                <h3>Piñón 7V Genérico</h3>
+                                <p class="price">$10,500</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Piñón 7V Genérico', 7534)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                      
+
+                        <!-- Piñón 7V Shimano - Base: $22,382 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785768194702/Captura%20de%20pantalla%202026-08-03%20112831.png0" alt="Piñón 7V Shimano">
+                            </div>
+                            <div class="product-info">
+                                <h3>Piñón 7V Shimano Original</h3>
+                                <p class="price">$28,000</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Piñón 7V Shimano Original', 29097)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Piñón Cassette 8V - Base: $11,910 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785768378171/Captura%20de%20pantalla%202026-08-03%20112845.png" alt="Piñón Cassette 8V">
+                            </div>
+                            <div class="product-info">
+                                <h3>Piñón Cassette 8V</h3>
+                                <p class="price">$18,000</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Piñón Cassette 8V', 15483)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Piñón 7V Shunfeng - Base: $9,992 + 30% -->
+                        <div class="product-card" tabindex="0">
+                            <div class="product-img-container">
+                                <img src="https://uploads.onecompiler.io/43vjzagjf/1785768277758/Captura%20de%20pantalla%202026-08-03%20112836.png" alt="Piñón 7V Shunfeng">
+                            </div>
+                            <div class="product-info">
+                                <h3>Piñón 7V Shunfeng</h3>
+                                <p class="price">$15,500</p>
+                                <button class="buy-btn" onclick="agregarAlCarrito('Piñón 7V Shunfeng', 12990)">
+                                    <i class="fa-solid fa-cart-plus"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
+            <!-- CARRITO DE COMPRAS LATERAL -->
+            <div>
+                <div class="cart-container">
+                    <h2><i class="fa-solid fa-cart-shopping"></i> Tu Carrito</h2>
+                    <ul id="cart-items">
+                        <li style="color: var(--text-muted); text-align: center; padding: 1.5rem 0; font-size: 0.9rem;">El carrito está vacío</li>
+                    </ul>
+                    <div class="cart-total">
+                        <span>Total:</span>
+                        <span id="cart-total-price" style="color: var(--neon-white);">$0</span>
+                    </div>
+                    <button class="whatsapp-checkout-btn" onclick="enviarPedidoWhatsApp()">
+                        <i class="fa-brands fa-whatsapp" style="font-size: 1.2rem;"></i> Enviar Pedido por WhatsApp
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- FOOTER FIJO CON FORMAS DE PAGO -->
+    <footer class="payment-footer">
+        <div class="payment-content">
+            <span class="payment-title">⚡ Medios de Pago Aceptados ⚡</span>
+            <div class="payment-icons">
+                <div class="payment-badge"><i class="fa-solid fa-bolt"></i> Mercado Pago</div>
+                <div class="payment-badge"><i class="fa-solid fa-money-bill-wave"></i> Efectivo</div>
+                <div class="payment-badge"><i class="fa-solid fa-credit-card"></i> Tarjetas</div>
+                <div class="payment-badge"><i class="fa-solid fa-building-columns"></i> Transferencia</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Archivo JS -->
+    <script src="script.js"></script>
+</body>
+</html>
